@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="MTB_BodyPartBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>2</pathCost>
+  </ThingDef>
+  <ThingDef Name="MTB_Prosthetics" ParentName="MTB_BodyPartBase" Abstract="True">
+    <thingCategories>
+      <li>BodyPartsArtificial</li>
+    </thingCategories>
+    <statBases>
+      <DeteriorationRate>0.0</DeteriorationRate>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>MTB_Bionics</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="MTB_TBionics" ParentName="MTB_Prosthetics" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/Health/thoriumBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_Arm</defName>
+    <label>thorium arm</label>
+    <description>Thorium arm. Advanced bionic.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <BionicArm>1</BionicArm>
+      <MTB_Alloy>25</MTB_Alloy>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_Leg</defName>
+    <label>thorium leg</label>
+    <description>Thorium arm. Advanced bionic.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <BionicLeg>1</BionicLeg>
+      <MTB_Alloy>20</MTB_Alloy>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>8</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_Eye</defName>
+    <label>thorium eye</label>
+    <description>Thorium arm. Advanced bionic.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <BionicEye>1</BionicEye>
+      <MTB_Alloy>15</MTB_Alloy>
+    </costList>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>0.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_Spine</defName>
+    <label>thorium spine</label>
+    <description>Thorium arm. Advanced bionic.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <BionicSpine>1</BionicSpine>
+      <MTB_Alloy>20</MTB_Alloy>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_ExoskeletonSuit</defName>
+    <label>thorium exoskeleton suit</label>
+    <description>not yet implemented.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <MTB_Alloy>30</MTB_Alloy>
+      <Plasteel>15</Plasteel>
+      <MTB_Thorium>10</MTB_Thorium>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_Ear</defName>
+    <label>thorium ear</label>
+    <description>Thorium arm. Advanced bionic.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <BionicEar>1</BionicEar>
+      <MTB_Alloy>15</MTB_Alloy>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_Heart</defName>
+    <label>thorium heart</label>
+    <description>Thorium heart. Advanced bionic.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <BionicHeart>1</BionicHeart>
+      <MTB_Alloy>15</MTB_Alloy>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_Stomach</defName>
+    <label>thorium stomach</label>
+    <description>Thorium stomach. Advanced bionic.</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <BionicStomach>1</BionicStomach>
+      <MTB_Alloy>10</MTB_Alloy>
+    </costList>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="MTB_TBionics">
+    <defName>MTB_PowerClaw</defName>
+    <label>thorium mantis blade</label>
+    <description>Thorium mantis blade. Advanced bionic. Yep, now we getting Cyberpunk 2077 stuff. Great times eh?</description>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <MTB_Alloy>20</MTB_Alloy>
+      <PowerClaw>1</PowerClaw>
+    </costList>
+    <graphicData>
+      <texPath>Things/Item/Health/thoriumPowerClaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.00</drawSize>
+    </graphicData>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef Name="MTB_Archotech" ParentName="MTB_Prosthetics" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/Health/ThoriumArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="MTB_Archotech">
+    <defName>MTB_ArchotechEye</defName>
+    <label>thorium archotech eye</label>
+    <description>An artifical eye built by an archotech. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Externally, it looks like a natural human eye, except it can change color at will. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <costList>
+      <ArchotechEye>1</ArchotechEye>
+      <MTB_Alloy>15</MTB_Alloy>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>3800</MarketValue>
+      <Mass>0.015</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="MTB_Archotech">
+    <defName>MTB_ArchotechArm</defName>
+    <label>thorium archotech arm</label>
+    <description>An artifical arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <costList>
+      <ArchotechArm>1</ArchotechArm>
+      <MTB_Alloy>20</MTB_Alloy>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>3800</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="MTB_Archotech">
+    <defName>MTB_ArchotechLeg</defName>
+    <label>thorium archotech leg</label>
+    <description>An artifical leg built by an archotech. It looks and feels like natural flesh, but a pair of these can move the user as fast as a decent car, and it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <costList>
+      <ArchotechLeg>1</ArchotechLeg>
+      <MTB_Alloy>20</MTB_Alloy>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>3800</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

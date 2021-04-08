@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Thorium mod (Continued)</name>
+  <packageId>Mlie.ThoriumMod</packageId>
+  <author>Mal'Garon</author>
+  <url>https://github.com/emipa606/ThoriumMod</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>jecrell.jecstools</packageId>
+      <displayName>JecsTools</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>jecrell.jecstools</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Mal'Garons mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2008446070
+
+- Added back the removed faction
+- Added the 2 previously unfinished thorium turrets
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/ThoriumMod][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+Just updated to 1.1 should be fully compatible with 1.0 as well, in the case it isn't there is still the old version [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1542238682]here[/url]
+
+[b]Important note![/b]
+Recently I lost all of my data and have no backups of this mod, and so that means I won't be updating this mod anymore in the future. Feel free to update it and re-post it if necessary, just mention me as original creator if this happens in the future.
+
+This mod adds a brand new end game material called thorium, thorium can be mined and its not really that rare.
+The mod adds bunch of research for guns and armors
+
+So what does this mod add?
+
+[b]Materials:[/b]
+raw thorium - mineable from thorium formations
+thorium alloy - smeltable after initial research, requires plasteel, and is producet on smelting table
+thorium fabric - for now this is made from cloth and is made on machining table (subject to change)
+
+[b]Terrain:[/b]
+thorium tile - beatiful and sterile tile
+thorium formation - source of raw thorium
+
+[b]Armors:[/b]
+thorium flak set, also changes regular flak pants to be just pants layer
+Advanced thorium set - made from 3 parts, the skin tight jumpsuit made mostly from fabric, the outside armor, and headgear
+shield belt - Will fully implement when I have time
+
+[b]Weapons:[/b]
+S44 Assault Rifle - a very poverful laser rifle
+S44 Sniper Rifle - sniper rifle with extreme precision and extreme range
+S44 SMG - a submachine gun good at medium range with similar DPS to S44 Assault Rifle
+S44 Minigun - Removed
+thorium power sword - a weapon worthy of kings, very powerful in melee
+
+[b]Bionics:[/b]
+You can upgrade all bionics to be more powerful!
+so if you want thorium arm, you need bionic arm, some thorium and you can make it better! also works in archotech [b]NOTE[/b] that you don't actually make archotech bionics, you just upgrade them. Also for the time being the heddifs have no description, I will update it when I have more time.
+Bionic list:
+Thorium arm
+Thorium leg
+Thorium eye
+Thorium ear
+Thorium stomach
+Thorium heart
+Thorium mantis blade (upgraded Power Claw)
+
+Thorium archotech arm
+Thorium archotek leg
+Thorium archotek eye
+
+[b]Buildings:[/b]
+Thorium Generator - powerful power generator which requires thorium power core to feed it, generates 18k power and consumes one core for lifetime, be ware of BIG BOOMS
+Thorium Turret - pretty much vanilla mini-turret, Shoots quickly, but deals low damage its strong. I will be addding more turrets in the future!
+
+[Temporarily removed the faction] [b]New faction![/b] [or maybe never to return?]
+The Thorium Brotherhood is nuetral faction. They are obssesed with upgrades (Bionics), and have a lot of powerful weapons and armors. Good friends (if you wanna bring the faction to your current playthrough use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=751841890]Faction Discovery[/url]
+
+Suggestions are welcome! I hope You'll like my mod.
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+

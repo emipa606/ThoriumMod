@@ -1,0 +1,17 @@
+Shotty -
+=====================================================================================================
+minigun - needs texture
+=====================================================================================================
+LONG TERM FUTURE PLANS:
+Animals (as well as corrupted versions)
+legendary guns (uniques, with special abilities?) - quest rewards only
+=====================================================================================================
+"survival" food - abandoned
+better launch pods and drop pods - abandoned
+make Advanced armor have shield - abandoned
+=====================================================================================================
+SMG - done
+add custom sounds - done
+new textures for flak armor - done
+new reactor core thingy to power reactor - done
+

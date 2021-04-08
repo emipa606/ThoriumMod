@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef Name="MTB_AddedBodyPartBase" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(0.094, 0.517, 0.286)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_Arm</defName>
+    <label>thorium arm</label>
+    <labelNoun>an thorium arm</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>MTB_Arm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.40</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_PowerClaw</defName>
+    <label>thorium manstis blade</label>
+    <labelNoun>a thorium mantis blade</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>22.0</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>MTB_PowerClaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_Leg</defName>
+    <label>thorium leg</label>
+    <labelNoun>an thorium leg</labelNoun>
+    <spawnThingOnRemoved>MTB_Leg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.40</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_Spine</defName>
+    <label>thorium spine</label>
+    <labelNoun>a thorium spine</labelNoun>
+    <spawnThingOnRemoved>MTB_Spine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.35</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_Ear</defName>
+    <label>thorium ear</label>
+    <labelNoun>a thorium ear</labelNoun>
+    <spawnThingOnRemoved>MTB_Ear</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.40</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_Eye</defName>
+    <label>thorium eye</label>
+    <labelNoun>a thorium eye</labelNoun>
+    <spawnThingOnRemoved>MTB_Eye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.40</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_Heart</defName>
+    <label>thorium heart</label>
+    <labelNoun>a thorium heart</labelNoun>
+    <spawnThingOnRemoved>MTB_Heart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_Stomach</defName>
+    <label>thorium stomach</label>
+    <labelNoun>a thorium stomach</labelNoun>
+    <spawnThingOnRemoved>MTB_Stomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MTB_AddedBodyPartBase">
+    <defName>MTB_ExoskeletonSuit</defName>
+    <label>thorium exoskeleton suit</label>
+    <labelNoun>an thorium exoskeleton suit</labelNoun>
+    <spawnThingOnRemoved>MTB_ExoskeletonSuit</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.3</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.3</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

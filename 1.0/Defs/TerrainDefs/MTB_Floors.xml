@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef Name="MTB_ThoriumFloor" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>SmoothableStone</li>
+    </affordances>
+    <statBases>
+      <WorkToBuild>330</WorkToBuild>
+    </statBases>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </TerrainDef>
+  <TerrainDef ParentName="MTB_ThoriumFloor" Name="MTB_ThoriumTile" Abstract="True">
+    <renderPrecedence>240</renderPrecedence>
+    <description>Tiles, for that Glitterworld look.</description>
+    <texturePath>Terrain/Surfaces/AzeriteTile</texturePath>
+    <color>(255,255,255)</color>
+    <edgeType>Hard</edgeType>
+    <constructEffect>ConstructMetal</constructEffect>
+  </TerrainDef>
+  <TerrainDef ParentName="MTB_ThoriumTile">
+    <defName>MTB_thoriumTile</defName>
+    <label>thorium tile</label>
+    <description>Tile made of Thorium. Not only visually pleasing, but quite sterile.</description>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Cleanliness>0.8</Cleanliness>
+      <Beauty>7</Beauty>
+    </statBases>
+    <costList>
+      <MTB_Thorium>10</MTB_Thorium>
+    </costList>
+    <researchPrerequisites>
+      <li>MTB_Fabrication</li>
+    </researchPrerequisites>
+    <!--<Comps>		
+			<li Class="CompProperties_Glower">
+       	 		<glowRadius>3</glowRadius>
+				<glowColor>(2,255,72)</glowColor>
+      		</li>
+		</Comps>-->
+  </TerrainDef>
+</Defs>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Research</defName>
+    <label>thorium properties</label>
+    <description>Discover the properties of Thorium.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.65</researchViewY>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Fabrication</defName>
+    <label>thorium Fabrcation</label>
+    <description>Discover how to use Thorium on an advanced level.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.85</researchViewY>
+    <prerequisites>
+      <li>MTB_Research</li>
+      <li>Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Clothes</defName>
+    <label>thorium fabric</label>
+    <description>Teaches you how to sew Thorium into fabric to make durable clothing.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.65</researchViewY>
+    <prerequisites>
+      <li>MTB_Research</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Armory</defName>
+    <label>thorium armory</label>
+    <description>Teaches you how to make Thorium alloy flak armor.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.65</researchViewY>
+    <prerequisites>
+      <li>MTB_Clothes</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_AdvancedArmory</defName>
+    <label>advanced thorium armory</label>
+    <description>Teaches you how to make more powerful Thorium armor.</description>
+    <baseCost>6500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.65</researchViewY>
+    <prerequisites>
+      <li>MTB_Armory</li>
+      <li>MTB_Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Weaponry</defName>
+    <label>advanced thorium weaponry</label>
+    <description>Discover the properties of Thorium to create weapons.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <prerequisites>
+      <li>MTB_Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_PowerCores</defName>
+    <label>thorium power research</label>
+    <description>Discover applications for Thorium in electricity.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>3.95</researchViewY>
+    <prerequisites>
+      <li>MTB_Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Reactor</defName>
+    <label>thorium reactor research</label>
+    <description>Research how to effectively use Thorium power cores in power generation.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <prerequisites>
+      <li>MTB_Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_SR</defName>
+    <label>S44 Sniper Rifle</label>
+    <description>Allows you to manufacture powerful Sniper Rifle on Fabrication Bench.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.35</researchViewY>
+    <prerequisites>
+      <li>MTB_Weaponry</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_AR</defName>
+    <label>S44 Assault Rifle</label>
+    <description>Allows you to manufacture powerful Assault Rifle on Fabrication Bench.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.05</researchViewY>
+    <prerequisites>
+      <li>MTB_Weaponry</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_SMG_research</defName>
+    <label>S44 SMG</label>
+    <description>Allows you to manufacture powerful SMG on Fabrication Bench.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.70</researchViewY>
+    <prerequisites>
+      <li>MTB_Weaponry</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Sword</defName>
+    <label>thorium PowerSword</label>
+    <description>Allows you to manufacture powerful swords on Fabrication Bench.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.65</researchViewY>
+    <prerequisites>
+      <li>MTB_Weaponry</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>MTB_Science</tab>
+    <defName>MTB_Bionics</defName>
+    <label>thorium bionics</label>
+    <description>Discover how Thorium could be used in prosthetics.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>3.20</researchViewY>
+    <prerequisites>
+      <li>MTB_Fabrication</li>
+      <li>Bionics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>
