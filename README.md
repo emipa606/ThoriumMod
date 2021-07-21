@@ -7,9 +7,19 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2008446070
 
 - Added back the removed faction
 - Added the 2 previously unfinished thorium turrets
+- Removed the dependency on Jecs Tools in the 1.3-version
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/ThoriumMod]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 

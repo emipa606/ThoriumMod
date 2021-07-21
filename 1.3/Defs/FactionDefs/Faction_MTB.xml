@@ -6,6 +6,7 @@
     <description>Peaceful part of the Thorium Brotherhood.</description>
     <settlementGenerationWeight>0.8</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <earliestRaidDays>0</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
     <autoFlee>false</autoFlee>
