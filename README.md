@@ -1,32 +1,23 @@
 # ThoriumMod
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
-Update of Mal&apos;Garons mod
+Update of Mal'Garons mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2008446070
 
 - Added back the removed faction
 - Added the 2 previously unfinished thorium turrets
 - Removed the dependency on Jecs Tools in the 1.3-version
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/ThoriumMod]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
-Just updated to 1.1 should be fully compatible with 1.0 as well, in the case it isn&apos;t there is still the old version https://steamcommunity.com/sharedfiles/filedetails/?id=1542238682]here
+Just updated to 1.1 should be fully compatible with 1.0 as well, in the case it isn't there is still the old version https://steamcommunity.com/sharedfiles/filedetails/?id=1542238682]here
 
 **Important note!**
-Recently I lost all of my data and have no backups of this mod, and so that means I won&apos;t be updating this mod anymore in the future. Feel free to update it and re-post it if necessary, just mention me as original creator if this happens in the future.
+Recently I lost all of my data and have no backups of this mod, and so that means I won't be updating this mod anymore in the future. Feel free to update it and re-post it if necessary, just mention me as original creator if this happens in the future.
 
 This mod adds a brand new end game material called thorium, thorium can be mined and its not really that rare.
 The mod adds bunch of research for guns and armors
@@ -56,7 +47,7 @@ thorium power sword - a weapon worthy of kings, very powerful in melee
 
 **Bionics:**
 You can upgrade all bionics to be more powerful!
-so if you want thorium arm, you need bionic arm, some thorium and you can make it better! also works in archotech **NOTE** that you don&apos;t actually make archotech bionics, you just upgrade them. Also for the time being the heddifs have no description, I will update it when I have more time.
+so if you want thorium arm, you need bionic arm, some thorium and you can make it better! also works in archotech **NOTE** that you don't actually make archotech bionics, you just upgrade them. Also for the time being the heddifs have no description, I will update it when I have more time.
 Bionic list:
 Thorium arm
 Thorium leg
@@ -77,9 +68,9 @@ Thorium Turret - pretty much vanilla mini-turret, Shoots quickly, but deals low 
 [Temporarily removed the faction] **New faction!** [or maybe never to return?]
 The Thorium Brotherhood is nuetral faction. They are obssesed with upgrades (Bionics), and have a lot of powerful weapons and armors. Good friends (if you wanna bring the faction to your current playthrough use https://steamcommunity.com/sharedfiles/filedetails/?id=751841890]Faction Discovery
 
-Suggestions are welcome! I hope You&apos;ll like my mod.
+Suggestions are welcome! I hope You'll like my mod.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

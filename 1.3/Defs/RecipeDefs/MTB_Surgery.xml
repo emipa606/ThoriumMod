@@ -459,4 +459,42 @@
     </appliedOnFixedBodyParts>
     <addsHediff>MTB_ArchotechLeg</addsHediff>
   </RecipeDef>
+  <RecipeDef ParentName="MTB_Surgery">
+    <defName>InstallThoriumExoskeletonSuit</defName>
+    <label>install thorium exoskeleton suit</label>
+    <description>Installs thorium exoskeleton suit.</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Installing thorium exoskeleton suit.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MTB_ExoskeletonSuit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>MTB_ExoskeletonSuit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Waist</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>MTB_ExoskeletonSuit</addsHediff>
+  </RecipeDef>
 </Defs>
