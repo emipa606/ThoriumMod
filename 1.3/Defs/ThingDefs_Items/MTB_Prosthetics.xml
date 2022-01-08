@@ -117,7 +117,7 @@
   <ThingDef ParentName="MTB_TBionics">
     <defName>MTB_ExoskeletonSuit</defName>
     <label>thorium exoskeleton suit</label>
-    <description>not yet implemented.</description>
+    <description>thorium exoskeleton suit</description>
     <techLevel>Spacer</techLevel>
     <costList>
       <MTB_Alloy>30</MTB_Alloy>
