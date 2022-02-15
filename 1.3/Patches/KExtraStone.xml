@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BlocksMonzonite"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>ExtractThoriumFromMonzonite</defName>
+              <label>smelt thorium from monzonite</label>
+              <description>Use heat and strong electromagnets to extract thorium from monzonite.</description>
+              <jobString>Smelting thorium from monzonite.</jobString>
+              <workAmount>500</workAmount>
+              <workSpeedStat>SmeltingSpeed</workSpeedStat>
+              <effectWorking>Smelt</effectWorking>
+              <soundWorking>Recipe_Smelt</soundWorking>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>BlocksMonzonite</li>
+                    </thingDefs>
+                  </filter>
+                  <count>30</count>
+                </li>
+              </ingredients>
+              <products>
+                <MTB_Thorium>5</MTB_Thorium>
+              </products>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>BlocksMonzonite</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+            </RecipeDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef/recipes[./li[contains(.,'ExtractMetalFromSlag')]]</xpath>
+          <value>
+            <li>ExtractThoriumFromMonzonite</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
