@@ -1,5 +1,8 @@
 # Changelog for ThoriumMod
 
+1.4.1 - Mod updated for 1.4 and passed autotests.
+
+
 1.3.3 - Added support for making Thorium of Monzonite from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=852103845][K]Extra Stone[/url]
 
 

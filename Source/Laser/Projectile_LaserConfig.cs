@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 
-namespace ThoriumLaser
+namespace ThoriumLaser;
+
+public class Projectile_LaserConfig
 {
-    public class Projectile_LaserConfig
-    {
-        public Vector3 offset;
-    }
+    public Vector3 offset;
 }

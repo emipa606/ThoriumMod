@@ -1,7 +1,6 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputPath>__output__</OutputPath>
+    <OutputPath>..\..\1.3\Assemblies</OutputPath>
     <TargetFramework>net472</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -9,14 +8,18 @@
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
-      <!-- <Version>1.3.3066-beta</Version> -->
-      <Version>*</Version>
+       <Version>1.3.3066-beta</Version> 
+      <!--<Version>*</Version>-->
       <ExcludeAssets>runtime</ExcludeAssets>
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+      
+	  <PackageReference Include="Lib.Harmony">
+		  <Version>*</Version>
+		  <ExcludeAssets>runtime</ExcludeAssets>
+	  </PackageReference>
   </ItemGroup>
-<!-- 1.3.3066-beta -->
+  <!-- 1.3.3066-beta -->
 </Project>
