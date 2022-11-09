@@ -1,5 +1,8 @@
 # Changelog for ThoriumMod
 
+1.4.2 - FIxed missing body graphics
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests.
 
 

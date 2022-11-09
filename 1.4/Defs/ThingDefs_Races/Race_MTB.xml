@@ -30,6 +30,31 @@
           <li>Human</li>
         </notXenophobistTowards>
         <immuneToXenophobia>true</immuneToXenophobia>
+        <alienPartGenerator>
+          <headTypes>
+            <li>Male_AverageNormal</li>
+            <li>Male_AveragePointy</li>
+            <li>Male_AverageWide</li>
+            <li>Male_NarrowNormal</li>
+            <li>Male_NarrowPointy</li>
+            <li>Male_NarrowWide</li>
+            <li>Female_AverageNormal</li>
+            <li>Female_AveragePointy</li>
+            <li>Female_AverageWide</li>
+            <li>Female_NarrowNormal</li>
+            <li>Female_NarrowPointy</li>
+            <li>Female_NarrowWide</li>
+          </headTypes>
+          <bodyTypes>
+            <li>Thin</li>
+            <li>Male</li>
+            <li>Female</li>
+            <li>Fat</li>
+            <li>Hulk</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+          </bodyTypes>
+        </alienPartGenerator>
       </generalSettings>
       <relationSettings>
         <relationChanceModifierChild>1</relationChanceModifierChild>
