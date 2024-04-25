@@ -1,5 +1,8 @@
 # Changelog for ThoriumMod
 
+1.4.3 - Last update, added end-of-life message
+
+
 1.4.2 - FIxed missing body graphics
 
 
